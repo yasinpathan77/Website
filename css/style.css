@@ -152,7 +152,7 @@ a {
 }
 
 .lists--tick {
-    list-style-image: url(../Moshify/icons/tick.svg);
+    list-style-image: url(../images/tick.svg);
     padding-left: 3rem;
 }
 
@@ -817,7 +817,7 @@ a {
 }
 
 .block .card {
-    min-width: 393px;
+    min-width: auto;
     max-width: 1000px;
 }
 
@@ -827,6 +827,10 @@ a {
 
 
 @media screen and (min-width:786px) {
+
+    .block .card {
+        min-width: 393px;
+    }
 
     .plan-popular {
         transform: scale(110%);
